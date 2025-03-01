@@ -2,7 +2,7 @@
 This repository is the official repository for the paper "Advancing Fact Attribution for Query Answering: Aggregate Queries and Novel Algorithms"
 
 ## Extended version of the paper
-Extended version of the paper is available under [Banzhaf_Values_for_Facts_in_Query_Answering.pdf](Banzhaf_Values_for_Facts_in_Query_Answering.pdf)
+Extended version of the paper is available under [Advancing_Fact_Attribution_for_Query_Answering.pdf](Advancing_Fact_Attribution_for_Query_Answering.pdf)
 
 ## Prerequisites
 
