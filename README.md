@@ -14,9 +14,10 @@ Before you begin, please ensure you have the following installed:
 ## Algorithms' implementation
 
 Full implementation of the code is in this repository. 
-* LExaBan and LExaShap for DNF formulas are available under BanzhafAlgorithms.py
-* LExaBan for semimodule expressions is available under BanzhafAlgorithmsAggregates.py
-* The implementation of previous SOTA algorithms ExaBan,ExaShap, and AdaBan are available https://github.com/Omer-Abramovich/AdaBan
+* LExaBan for DNF Boolean formulas is available under [LExaBan](LExaBan/BanzhafCircuit.py)
+* LExaShap for DNF Boolean formulas is available under [LExaShap](LExaShap/ShapleyCircuit.py)
+* LExaBan for MAX semimodule expressions is available under [Max_LExaBan](Max_LExaBan/ArithmeticCircuit.py)
+* The implementation of previous SOTA algorithms ExaBan,ExaShap, and AdaBan are available [here](https://github.com/Omer-Abramovich/AdaBan)
 
 ## Experiments
 * Example notebook on how to run experiments of our algorithms can be found [here](notebooks/Experiments.ipynb)
