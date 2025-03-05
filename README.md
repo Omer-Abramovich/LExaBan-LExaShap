@@ -18,6 +18,3 @@ Full implementation of the code is in this repository.
 * LExaShap for DNF Boolean formulas is available under [LExaShap](LExaShap/ShapleyCircuit.py)
 * LExaBan for MAX semimodule expressions is available under [Max_LExaBan](Max_LExaBan/ArithmeticCircuit.py)
 * The implementation of previous SOTA algorithms ExaBan,ExaShap, and AdaBan are available [here](https://github.com/Omer-Abramovich/AdaBan)
-
-## Experiments
-* Example notebook on how to run experiments of our algorithms can be found [here](notebooks/Experiments.ipynb)
