@@ -21,4 +21,6 @@ Full implementation of the code is in this repository.
 * The implementation of previous SOTA algorithms ExaBan,ExaShap, and AdaBan are available [here](https://github.com/Omer-Abramovich/AdaBan)
 
 ## Example Usage
-Example usage, as well as a partial demostration of the experiments of the paper is available [here](https://??)
+* All algorithms for SPJU expect to recieve a DNF lineage in the format of a list of sets, such that each set represents a clause.
+* Algorithms for Aggregate queries expect to recieve either a list of DNFs and coefficients (for SUM, COUNT) or a list of set,coefficient tuples (MAX, MIN).
+* Example usage, as well as visualization of d-trees is available [here](https://??)
