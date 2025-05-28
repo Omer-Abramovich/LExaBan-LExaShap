@@ -9,7 +9,8 @@ Extended version of the paper is available under [Advancing_Fact_Attribution_for
 Before you begin, please ensure you have the following installed:
 
 - Python (>=3.11)
-- For obtaining provenance expressions of output tuples from queries or of aggregate queries please refer to https://github.com/navefr/ShapleyForDbFacts
+- For obtaining provenance expressions of output tuples from queries or of aggregate queries as well as prerequisites for that please refer to the [ProvSQL project
+](https://github.com/PierreSenellart/provsql)
 
 ## Algorithms' implementation
 
