@@ -35,7 +35,7 @@ dnf_lineage = [
 ```
 
 ### Aggregate Queries
-*Algorithms for SUM/COUNT Aggregate queries expect to recieve a list of DNFs and coefficients
+* Algorithms for SUM/COUNT Aggregate queries expect to recieve a list of DNFs and coefficients
 ```python
 # Example: 3 * ((x1 AND x2) OR (x3)) + 5 * ((x4))
 BNP_lineage = [
