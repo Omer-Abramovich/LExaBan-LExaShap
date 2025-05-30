@@ -1,6 +1,6 @@
-from PartialDistribution import PartialDistributionDict
-from HelperFunctions import UnionFind, set_first
-from MaxBanzhafEngine import Value
+from .PartialDistribution import PartialDistributionDict
+from .HelperFunctions import UnionFind, set_first
+from .MaxBanzhafEngine import Value
 from collections import defaultdict
 
 

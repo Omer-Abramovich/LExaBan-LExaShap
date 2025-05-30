@@ -1,5 +1,5 @@
 import numpy as np
-from PartialDistribution import PartialDistributionDict
+from .PartialDistribution import PartialDistributionDict
 
 class Value:
     """ stores a single dnf variable and its gradient"""
