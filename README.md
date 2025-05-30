@@ -20,7 +20,44 @@ Full implementation of the code is in this repository.
 * LExaBan for MAX semimodule expressions is available under [Max_LExaBan](Algorithms/Max_LExaBan/ArithmeticCircuit.py)
 * The implementation of previous SOTA algorithms ExaBan,ExaShap, and AdaBan are available [here](https://github.com/Omer-Abramovich/AdaBan)
 
-## Example Usage
-* All algorithms for SPJU expect to recieve a DNF lineage in the format of a list of sets, such that each set represents a clause.
-* Algorithms for Aggregate queries expect to recieve either a list of DNFs and coefficients (for SUM, COUNT) or a list of set,coefficient tuples (MAX, MIN).
+## Usage instructions
+### SPJU
+  * All algorithms for SPJU expect a **DNF lineage** represented as a list of sets.  
+Each set corresponds to a **conjunction (AND clause)**, and the list represents a **disjunction (OR of clauses)**.
+
+```python
+# Example: (x1 AND x2) OR (x3)
+dnf_lineage = [
+    {"x1", "x2"},
+    {"x3"}
+]
+```
+
+### Aggregate Queries
+*Algorithms for SUM/COUNT Aggregate queries expect to recieve a list of DNFs and coefficients
+```python
+# Example: 3 * ((x1 AND x2) OR (x3)) + 5 * ((x4))
+BNP_lineage = [
+    ([
+        {"x1", "x2"},
+        {"x3"}
+    ], 3),
+    ([
+        {"x4"}
+    ], 5)
+]
+```
+
+* Algorithms for MAX/MIN Aggregate queries expect to recieve a list of (set, coefficient) pairs, where each set is a conjunction (a clause in the DNF). This is available due to their idempotence (see Section 4 in the paper).
+```python
+# Example: max of {3 if (x1 AND x2), 7 if (x3), 2 if (x4 AND x5)}
+max_semimodule_lineage = [
+    ({"x1", "x2"}, 3),
+    ({"x3"}, 7),
+    ({"x4", "x5"}, 2)
+]
+```
+
+### Examples
+  
 * Example usage, as well as visualization of d-trees is available [here](Notebooks/Experiments.ipynb)
