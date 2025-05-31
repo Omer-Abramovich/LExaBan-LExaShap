@@ -2,8 +2,8 @@
 This repository is the official repository for the paper "Advancing Fact Attribution for Query Answering: Aggregate Queries and Novel Algorithms"
 
 ## Extended version of the paper
-Extended version of the paper is available under [Advancing_Fact_Attribution_for_Query_Answering.pdf](Advancing_Fact_Attribution_for_Query_Answering.pdf)
-Queries for all of the datasets used in the paper are under [Queries](Queries)
+* Extended version of the paper is available under [Advancing_Fact_Attribution_for_Query_Answering.pdf](Advancing_Fact_Attribution_for_Query_Answering.pdf)
+* Queries for all of the datasets used in the paper are under [Queries](Queries)
 
 ## Prerequisites
 
